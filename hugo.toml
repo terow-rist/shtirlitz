@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Hi user!'
+theme = "hugo-theme-nix"
+
+[params]
+  Name = "Shtirlitz"
+  HeaderUsername = "skbidi"
+  HeaderHostname = "terow-rist"
+  About = "Hello, my name is Shtirlitz! I'm ChainiKozha's server, and this is my welcome page! 😁😁😁"
+  ProfilePicture = "https://i.pinimg.com/736x/ab/c8/12/abc8125fd82600a26a7fb04063e24e08.jpg"
+
+  # Optional social networks
+  GithubID = "terow-rist"
+  Email = "feeerhd.342@gmail.com"
+  TelegramID = "/chai_with_kozha"
+
+[menu]
+  [[menu.header]]
+    identifier = "post"
+    name = "posts"
+    weight = 0
+  [[menu.header]]
+    parent = "post"
+    name = "All Posts"
+    url = "/posts"
+  [[menu.header]]
+    parent = "post"
+    name = "categories"
+    url = "/categories"
+  [[menu.header]]
+    parent = "post"
+    name = "tags"
+    url = "/tags"
