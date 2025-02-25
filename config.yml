@@ -1,0 +1,175 @@
+## Example Config file
+baseURL: "https://example.com"
+theme: "terminalcv"
+title: "shtirlitz"
+
+params:
+  version: '2.0.0'
+  description: "My terminal cv"
+  prompt:
+    core:
+      text: "skibidi@terow-rist"
+      color: 'pink'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/shtirlitz'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: |
+
+    _____ ___ _____  _  _____  _  _____ ___  
+    |_   _/ _ |_   _|/ \|_   _|/ \|_   _/ _ \ 
+      | || | | || | / _ \ | | / _ \ | || | | |
+      | || |_| || |/ ___ \| |/ ___ \| || |_| |
+      |_| \___/ |_/_/   \_|_/_/   \_|_| \___/ 
+                                                                                          
+
+    Welcome to my online resume
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Madikozha Issayev"
+      profession: "Student of AITU"
+      location: "Jibek Joly"
+      email: "feeerhd.342@gmail.com"
+      homelink: "https://totatato.com"
+      description: |
+              ~I'm on that road, motor to the max
+              ~The life's dust coat, straight behind my back
+              ~I'm on that road, leave it all behind
+              ~Escape that life, sunset overdrive
+              https://www.youtube.com/watch?v=T4MAqS5nx68&list=RDMMOkEwZ8cx-54&index=12
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/terow-rist"
+    - name: "instagram"
+      url: "https://www.instagram.com/hznoname8?igsh=MWpnbWJrNWJpdDI1eQ=="
+    - name: "telegram"
+      url: "https://t.me/chai_with_kozha" 
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+      - jobTitle: Go & Python Developer
+        color: purple
+        company: 'Self-employed' 
+        location: Remote
+        date: August 2023 - Present
+        description: Developing projects in Python and Go, working on Telegram bots, Wails applications, and serverless functions.
+
+  education:
+    details:
+      - courseName: Alem school
+        color: red
+        date: June 2024 - Present
+        description: Learning programming concepts including Bash, Git, Go, and other development tools.
+
+      - courseName: AITU (Computer Science Basics)
+        color: white
+        date: Sept 2023 - Present
+
+
+  skills:
+    # settings:
+    #   useLess: true
+    details:
+
+    - name: Linux
+      color: white
+      percentage: 30
+      description: HZ, need to study more...
+
+    - name: Development & Scripting
+      color: blue
+      percentage: 40
+      description: CODING,CODING AND CODIIINGG!!!!
+
+    - name: Guitar
+      color: orange
+      percentage: 40
+      description: Beginner in fingerstyle >:)
+
+  softskills:
+    # settings:
+    #   useLess: true
+    details:
+    - name: Self-Motivated
+      color: red
+      percentage: 80
+      #description:
+
+    - name:  Team-Work
+      color: green
+      percentage: 65
+      description: Still learning...
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+    - name: English
+      color: Blue
+      percentage: 60
+      #description: 
+
+    - name: Skibidi
+      color: purple
+      percentage: 100
+      description: SKIBIDI DOP,DOP,DOP YES YEEESS!!!
+
+    
+  misc: 
+    # settings:
+    #   useLess: true
+    commandName: LUFFY
+    title: "GOMU GOMU NOOO >:)"
+    titleColor: teal
+    content: |
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⠀⠀⠀⢠⣾⣧⣤⡖⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠋⠀⠉⠀⢄⣸⣿⣿⣿⣿⣿⣥⡤⢶⣿⣦⣀⡀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡆⠀⠀⠀⣙⣛⣿⣿⣿⣿⡏⠀⠀⣀⣿⣿⣿⡟
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⠷⣦⣤⣤⣬⣽⣿⣿⣿⣿⣿⣿⣿⣟⠛⠿⠋⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠋⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⡆⠀⠀
+          ⠀⠀⠀⠀⣠⣶⣶⣶⣿⣦⡀⠘⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠈⢹⡏⠁⠀⠀
+          ⠀⠀⠀⢀⣿⡏⠉⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡆⠀⢀⣿⡇⠀⠀⠀
+          ⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡘⣿⣿⣃⠀⠀⠀
+          ⣴⣷⣀⣸⣿⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⠹⣿⣯⣤⣾⠏⠉⠉⠉⠙⠢⠀
+          ⠈⠙⢿⣿⡟⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣄⠛⠉⢩⣷⣴⡆⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠋⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣀⡠⠋⠈⢿⣇⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+    contentColor: white
