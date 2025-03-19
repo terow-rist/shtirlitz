@@ -39,7 +39,7 @@ params:
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: |
 
-    _____ ___ _____  _  _____  _  _____ ___  
+    ______ ___ _____  _  _____  _  _____ ___  
     |_   _/ _ |_   _|/ \|_   _|/ \|_   _/ _ \ 
       | || | | || | / _ \ | | / _ \ | || | | |
       | || |_| || |/ ___ \| |/ ___ \| || |_| |
@@ -89,6 +89,16 @@ params:
         location: Remote
         date: August 2023 - Present
         description: Developing projects in Python and Go, working on Telegram bots, Wails applications, and serverless functions.
+  projects:
+    # settings:
+    #   useLess: true
+    details:
+    - title: Ollama-Kurbanayt
+      color: red
+      date: since 2025
+      link: https://github.com/terow-rist/Ollama-Kurbanayt
+      description: This is a web project with fronjt-end, backend, mongodb, chromaDB and Ollama
+        The purpose of project, bot which rgenerates html, css and js codes for front-end and shows it in new page.
 
   education:
     details:
@@ -109,18 +119,14 @@ params:
 
     - name: Linux
       color: white
-      percentage: 30
-      description: HZ, need to study more...
+      percentage: 45
+      description: solid beginner understanding. ;) -> [user@host] () { () | () & }; ()
 
     - name: Development & Scripting
       color: blue
-      percentage: 40
+      percentage: 70
       description: CODING,CODING AND CODIIINGG!!!!
 
-    - name: Guitar
-      color: orange
-      percentage: 40
-      description: Beginner in fingerstyle >:)
 
   softskills:
     # settings:
@@ -133,7 +139,7 @@ params:
 
     - name:  Team-Work
       color: green
-      percentage: 65
+      percentage: 75
       description: Still learning...
 
   languages:
@@ -142,7 +148,7 @@ params:
     details:
     - name: English
       color: Blue
-      percentage: 60
+      percentage: 80
       #description: 
 
     - name: Skibidi
